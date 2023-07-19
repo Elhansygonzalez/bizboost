@@ -1,0 +1,172 @@
+:root {
+  --container-width: 45rem;
+  --color-brick: rgba(253, 253, 253, 1);
+  --main-background-color: #ececec;
+  --my-font-md: 1.125rem;
+}
+
+/* Common styles */
+.medium-text, button.medium-text {
+  font-size: var(--my-font-md);
+  line-height: 31px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+/* application */
+#parent {
+  background-color: var(--main-background-color)
+}
+
+.app-body {
+  background-color: #fff;
+}
+
+/* Header */
+.header {
+  height: 80px;
+}
+
+.logo {
+  font-size: 28px;
+  line-height: 39px;
+  color: #1D1F25;
+}
+
+ul.navbar-nav li {
+  padding: 8px;  font-style: normal;
+  font-weight: 400;
+}
+
+.logo, .social {
+  padding-top: 24px;
+}
+
+.social a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+/* Top Body */
+#top-container {
+  width: var(--container-width);
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.top-title {
+  width: var(--container-width);
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 70px;
+}
+
+.top-subtitle {
+  margin-top: 24px 0;
+  width: 724px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1D1F25;
+}
+
+#btn-learn-more {
+  padding: 15px 31.84px 16.59px 32px;
+  margin-bottom: 82px;
+  height: 62.59px;
+  background: #C26148;
+  border-radius: 3px;
+  color: var(--color-brick);
+}
+
+/* Middle body */
+.middle-main {
+  background-color: var(--main-background-color);
+  padding: 63px 0;
+}
+
+.middle-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.middle-subtitle {
+  width: 691px;
+  margin: 0 auto 128px auto;
+  text-align: center;
+}
+
+.middle-columns {
+  width: 100%;
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  margin-top: 24px;
+}
+
+.column p {
+  font-weight: 500;
+  margin-top: 23px;
+}
+
+.bottom-container {
+  height: 270px;
+  background-color: #C26148;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-content {
+  text-align: center;
+}
+
+.bottom-container h2 {
+  color: #FDFDFD;;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  margin-bottom: 40px;
+}
+
+.bottom-container button {
+  width: 169px;
+  height: 59px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 31px;
+  color: #FDFDFD;
+  background-color: transparent;
+  border: 2px solid #FDFDFD;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 70.39px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+}
+
+.footer div {
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin: 0 10%;
+}
